@@ -23,7 +23,7 @@
 ```
 project/
 │
-├── homepage.html          # Main homepage
+├── index.html          # Main homepage
 ├── login.html            # Login/Signup page (UPDATED)
 ├── account.html          # User account page (UPDATED)
 ├── admin.html            # Admin panel to view users (NEW)
@@ -77,7 +77,7 @@ User enters phone → Check if exists →
 Place all HTML files in the same directory:
 ```
 your-project-folder/
-  ├── homepage.html
+  ├── index.html
   ├── login.html (USE THE NEW VERSION)
   ├── account.html (USE THE UPDATED VERSION)
   ├── admin.html (NEW FILE)
@@ -102,7 +102,7 @@ The database is automatically created when the first user registers. No manual s
 
 3. **Logout:**
    - Click "Logout" in sidebar
-   - You'll be redirected to `homepage.html`
+   - You'll be redirected to `index.html`
 
 4. **Login Again:**
    - Go to `login.html`
@@ -156,7 +156,7 @@ window.location.replace('account.html'); // Change destination
 
 In `account.html`:
 ```javascript
-window.location.replace('homepage.html'); // Change logout destination
+window.location.replace('index.html'); // Change logout destination
 ```
 
 ---

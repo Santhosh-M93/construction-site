@@ -6,7 +6,7 @@
 ```
 construction-ecommerce/
 │
-├── homepage.html              (Your existing homepage - main landing page)
+├── index.html              (Your existing homepage - main landing page)
 ├── products.html              (All products listing with filters)
 ├── product-detail.html        (Single product details page)
 ├── cart.html                  (Shopping cart page)
@@ -26,7 +26,7 @@ construction-ecommerce/
 
 ### Navigation Flow:
 ```
-homepage.html
+index.html
     │
     ├─→ products.html (Click "See All" or category buttons)
     │      │
@@ -47,7 +47,7 @@ homepage.html
 
 ## 📄 Page Descriptions
 
-### 1. **homepage.html** (Your Existing File)
+### 1. **index.html** (Your Existing File)
 - **Purpose**: Main landing page
 - **Features**: 
   - Category navigation
@@ -63,7 +63,7 @@ homepage.html
   - Sort products (price, name, discount)
   - Grid view of all products
   - Add to cart functionality
-- **Links to**: homepage.html, product-detail.html, cart.html
+- **Links to**: index.html, product-detail.html, cart.html
 
 ### 3. **product-detail.html** (NEW)
 - **Purpose**: Detailed product information
@@ -73,7 +73,7 @@ homepage.html
   - Quantity selector
   - Add to cart/wishlist
   - Product tabs (Description, Specs, Reviews)
-- **Links to**: homepage.html, cart.html
+- **Links to**: index.html, cart.html
 
 ### 4. **cart.html** (NEW)
 - **Purpose**: Shopping cart management
@@ -84,7 +84,7 @@ homepage.html
   - Order summary with totals
   - Promo code input
   - Free delivery threshold indicator
-- **Links to**: homepage.html, checkout.html
+- **Links to**: index.html, checkout.html
 
 ### 5. **checkout.html** (NEW)
 - **Purpose**: Complete purchase
@@ -104,7 +104,7 @@ homepage.html
   - Wishlist
   - Saved addresses
   - Logout functionality
-- **Links to**: homepage.html
+- **Links to**: index.html
 
 ---
 
@@ -163,7 +163,7 @@ cd construction-ecommerce
 ```
 
 ### Step 2: Add Files
-1. Keep your existing `homepage.html`
+1. Keep your existing `index.html`
 2. Create `products.html` (copy from artifact)
 3. Create `product-detail.html` (copy from artifact)
 4. Create `cart.html` (copy from artifact)
@@ -172,8 +172,8 @@ cd construction-ecommerce
 7. Create `styles.css` (copy from artifact)
 8. Create `products.js` (copy from artifact)
 
-### Step 3: Update Your homepage.html
-Add these lines in the `<head>` section of homepage.html:
+### Step 3: Update Your index.html
+Add these lines in the `<head>` section of index.html:
 ```html
 
 ```
@@ -189,7 +189,7 @@ See All
 ```
 
 ### Step 4: Test Locally
-1. Open `homepage.html` in your browser
+1. Open `index.html` in your browser
 2. Click through all navigation links
 3. Test add to cart functionality
 4. Verify all pages load correctly

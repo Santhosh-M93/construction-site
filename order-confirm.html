@@ -673,7 +673,7 @@
             <button class="btn btn-primary" onclick="window.location.href='account.html'">
                 <span>View Orders</span>
             </button>
-            <button class="btn btn-secondary" onclick="window.location.href='homepage.html'">
+            <button class="btn btn-secondary" onclick="window.location.href='index.html'">
                 <span>Continue Shopping</span>
             </button>
         </div>
@@ -759,7 +759,7 @@
 
             if (!addressIndex || !paymentMethod) {
                 alert('Order data missing. Redirecting to homepage...');
-                window.location.href = 'homepage.html';
+                window.location.href = 'index.html';
                 return;
             }
 
@@ -772,14 +772,14 @@
                 isCartCheckout = true;
             } else {
                 alert('No items found. Redirecting to homepage...');
-                window.location.href = 'homepage.html';
+                window.location.href = 'index.html';
                 return;
             }
 
             const selectedAddr = addresses[addressIndex];
             if (!selectedAddr) {
                 alert('Address not found. Redirecting to homepage...');
-                window.location.href = 'homepage.html';
+                window.location.href = 'index.html';
                 return;
             }
 

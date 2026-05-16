@@ -59,7 +59,7 @@ const allProducts = [
     
 
     // Add similar for bricks, sand, woodcraft, paint, buildingExcellence (expand as needed)
-    // For brevity, include key ones; you can add all from homepage.html
+    // For brevity, include key ones; you can add all from index.html
 ];
 // ...existing code...
 function renderSearchDropdown(results) {
