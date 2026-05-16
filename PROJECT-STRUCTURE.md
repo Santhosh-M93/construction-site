@@ -17,7 +17,7 @@ construction-ecommerce/
 ├── products.js                (JavaScript for products page)
 │
 └── assets/
-    └── WhatsApp Image 2025-12-08 at 7.55.57 PM.jpeg  (Your logo)
+    └── index.html  (Your logo)
 ```
 
 ---
@@ -236,7 +236,7 @@ See All
 ```
 
 ### Logo:
-Replace `WhatsApp Image 2025-12-08 at 7.55.57 PM.jpeg` with your logo file
+Replace `index.html` with your logo file
 
 ### Products:
 Edit the `allProducts` array in `products.js` to add/modify products
